@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-
+import CategoriesDetail from './CategoriesDetail';
 function App() {
   return (
     <div className="App">
-      
-    </div>
+      <CategoriesDetail />
+      </div>
   );
 }
 
