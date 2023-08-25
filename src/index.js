@@ -8,11 +8,12 @@ import CategoriesDetail from './CategoriesDetail';
 import HomePage from './HomePage';
 
 import reportWebVitals from './reportWebVitals';
+import MainSection from './MainSection';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
- 	<CategoriesDetail/>   
+ 	<MainSection/>   
   </React.StrictMode>
 );
 
