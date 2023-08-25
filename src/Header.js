@@ -21,10 +21,10 @@ function Header() {
                 <div className='row'>
 
                 <div className='col-5'><input type={'text'} value="" class="form-control" placeholder='What do you want?'></input></div>
-                <div className='col-1'><button class="btn text-light fa fa-search" style={{backgroundColor:"#0056d2"}}></button></div>
+                <div className='col-1'><button class="btn text-light fa-regular fa-magnifying-glass" style={{backgroundColor:"#0056d2"}}></button></div>
 
                 <div className='col'><input type={'text'} value="" class="form-control" placeholder='What do you want?'></input></div>
-                <div className='col'><button class="btn text-light fa fa-search" style={{backgroundColor:"#0056d2"}}></button></div>
+                <div className='col'><button class="btn text-light fa-regular fa-magnifying-glass" style={{backgroundColor:"#0056d2"}}></button></div>
 
                 </div>
               </div>
