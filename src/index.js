@@ -5,6 +5,8 @@ import App from './App';
 
 import Header from './Header';
 import CategoriesDetail from './CategoriesDetail';
+import Categories from './Categories';
+import Footer from './Footer';
 import HomePage from './HomePage';
 
 import reportWebVitals from './reportWebVitals';
@@ -13,8 +15,10 @@ import MainSection from './MainSection';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
- 	<MainSection/>   
-  	<CategoriesDetail/>
+ 	<MainSection/>
+  <Categories/>
+  <hr/>
+  <Footer/>
   </React.StrictMode>
 );
 

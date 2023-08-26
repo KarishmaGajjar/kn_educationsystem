@@ -30,30 +30,31 @@ function Categories() {
 
   return (
     <>
-    
-    <div className='row'>
-      <div className='col-md-12'>
-        <p className='h1 ms-3'> Start learning with free courses </p>
-      </div>
+    <div className='container'>
       <div className='row'>
         <div className='col-md-12'>
-          <p className='fs-3 ms-3'> Explore free online courses from the world's top universities and companies.</p>
+          <p className='h1 ms-3'> Start learning with free courses </p>
         </div>
-      </div>
-    </div>
-    <div className='row ms-5'>
-      {subjectsData.map((subject, index) => (
-        <div key={index} className='col-md-3'>
-          <div className="card" style={{ width: '17rem', height:'28rem'}}>
-            <img src={subject.img} className="card-img-top" alt={subject.title} />
-            <div className="card-body">
-              <h5 className="card-title">{subject.title}</h5>
-              <p className="card-text">{subject.description}</p>
-              <a href="Categories.js" className="btn btn-primary">Click to start learning</a>
-            </div>
+        <div className='row'>
+          <div className='col-md-12'>
+            <p className='fs-3 ms-3'> Explore free online courses from the world's top universities and companies.</p>
           </div>
         </div>
-      ))}
+      </div>
+      <div className='row ms-5'>
+        {subjectsData.map((subject, index) => (
+          <div key={index} className='col-md-3'>
+            <div className="card" style={{ width: '17rem', height:'28rem'}}>
+              <img src={subject.img} className="card-img-top" alt={subject.title} />
+              <div className="card-body">
+                <h5 className="card-title">{subject.title}</h5>
+                <p className="card-text">{subject.description}</p>
+                <a href="Categories.js" className="btn btn-primary">Click to start learning</a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
     </>
   );

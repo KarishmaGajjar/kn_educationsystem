@@ -22,7 +22,6 @@ function MainSection() {
       </div>
     </div>
     <hr/>
-    <Footer/>
     </>
   );
 }
