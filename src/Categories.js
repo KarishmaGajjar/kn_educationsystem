@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import coursera_logo from './coursera_logo.svg';
+import CategoriesDetail from './CategoriesDetail';
+import { Route, Router, Routes } from "react-router-dom"
 
 import './App.css';
 
@@ -49,7 +51,7 @@ function Categories() {
               <div className="card-body">
                 <h5 className="card-title">{subject.title}</h5>
                 <p className="card-text">{subject.description}</p>
-                <a href="Categories.js" className="btn btn-primary">Click to start learning</a>
+                <a href='/categoriesDetail' className="btn btn-primary">Click to start learning</a>
               </div>
             </div>
           </div>
