@@ -36,7 +36,7 @@ function CategoriesDetail() {
         </div>
       </div>
         <div className="container mt-4">
-            <div className='row me-2'>
+            <div className='row gap-3'>
               {subjectDetails.map((subject, index) => (
                 <div key={index} className="card">
                   <div className="card-body">
