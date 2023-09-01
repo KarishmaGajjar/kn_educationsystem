@@ -43,7 +43,7 @@ function Categories() {
           </div>
         </div>
       </div>
-      <div className='row ms-5'>
+      <div className='row'>
         {subjectsData.map((subject, index) => (
           <div key={index} className='col-md-3'>
             <div className="card" style={{ width: '17rem', height:'28rem'}}>
