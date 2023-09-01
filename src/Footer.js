@@ -7,8 +7,8 @@ import './App.css';
 function Footer() {
   return (
     <>
-      <div className='container-fluid mt-4' style={{backgroundColor:"#c7c8c9"}}>
-        <div className='row'>
+      <div className='container-fluid mt-4' style={{backgroundColor:"#f5f5f5"}}>
+        <div className='row ms-5'>
           <div className='col-md-4'>Coursera
           <div className='row-md-4'>About</div>
             <div className='row-md-4'>Categories</div>
