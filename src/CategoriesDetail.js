@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import { Navigate } from 'react-router-dom';
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
